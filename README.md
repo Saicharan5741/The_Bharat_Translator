@@ -1,6 +1,7 @@
 # The Bharat Translator
 
 The Bharat Translator is a web-based language translation tool designed to convert English text into Hindi, the official language of India. It provides a user-friendly interface and aims to meet the language translation needs of government organizations and websites.
+![GitHub Logo](https://github.com/Saicharan5741/The_Bharat_Translator/static/images/123.jpeg)
 
 ## Features
 
