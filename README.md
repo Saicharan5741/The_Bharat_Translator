@@ -58,9 +58,7 @@ License
 This project is licensed under the MIT License.
 
 
-Copy code
 
-You can customize this `README.md` file to provide specific details about your project, such as installation instructions, usage guidelines, and contribution information.
 
 
 
