@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>The Bharat Translator</title>
+</head>
+<body>
+    <img src="static/images/logo.png" alt="The Bharat Translator Logo" class="logo">
+    <div class="container">
+       
+        <h1>The Bharat Translator</h1>
+        <form method="POST">
+            <textarea name="text_to_translate" placeholder="Enter text in English" rows="5" required></textarea>
+            <button type="submit">Translate</button>
+        </form>
+        {% if translation %}
+        <div class="translation">
+            <h2>Translation in Hindi:</h2>
+            <p class="output">{{ translation }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
